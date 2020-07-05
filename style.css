@@ -1,0 +1,52 @@
+#todo-app {
+    display: flex;
+    flex-direction: column;
+    background-color: #797777;
+    width: 400px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  #todo-app h1 {
+    background-color: #ffa600;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .todo-list {
+    display: flex;
+    flex-direction: row;
+    padding: 7px 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #eeeeee;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ffa600;;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+  }
+    
+  input[type="text"] {
+    border: 1px solid #050505;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  
+  .block {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
